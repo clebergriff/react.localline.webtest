@@ -1,0 +1,41 @@
+.card-body {
+  margin: 0.5rem 1rem;
+}
+
+.gray-text {
+  color: gray;
+  font-weight: lighter;
+  flex-direction: column;
+  font-size: 12px;
+}
+
+.card-view-button {
+  color: white;
+  font-weight: bold;
+  background-color: #44AF81;
+  border: 1px solid #317a5a;
+  border-radius: 2px;
+  padding: 10px;
+}
+
+.card-data {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;  
+}
+
+.user-buttons {
+  display: flex;
+  align-content: center;
+  align-items: center;  
+}
+
+button {
+  margin-right: 5px;
+}
+
+hr {
+  border: 1px solid #E7E7E7;
+}

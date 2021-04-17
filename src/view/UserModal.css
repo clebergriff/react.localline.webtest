@@ -1,0 +1,87 @@
+.userInfo {
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Roboto';
+}
+
+.column {
+  margin: 10px;
+}
+
+.footer {
+  font-family: 'Roboto';
+  text-align: center;
+}
+
+.title {
+  font-size: 14px;
+  font-family: 'Roboto';
+  margin-top: 10px;
+  margin-bottom: -10px;
+  color: darkgray;
+  font-weight: bold;
+}
+
+.value {
+  font-size: 18px;
+  font-weight: bold;
+  padding-top: 10px;
+}
+
+.full-hr {
+  border: none;
+  height: 2px;
+  background-color: #f6f6f6;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 0px;
+} 
+
+.partial-hr {
+  border: none;
+  height: 2px;
+  background-color: darkgray;
+  margin-top: 0px;
+} 
+
+.column {
+  flex: auto;
+}
+
+.headerTitle {
+  display: flex;  
+  justify-content: space-between;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 10px;
+  margin-top: 0px;
+}
+
+.button {
+  font-family: inherit;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 2px;
+  padding: 15px;
+  margin-top: 15px;
+  width: 100%;
+}
+
+.button-send-catalog {  
+  background-color: #42B280;
+}
+
+.button-add-note {  
+  background-color: #3C2E67;
+  margin-top: 27px;
+}
+
+select:disabled {
+  font: inherit;
+  width: 100%;
+  margin-top: 10px;
+  padding: 5px;
+  background-color: #FFFFFF;
+  border-radius: 2px;
+}
